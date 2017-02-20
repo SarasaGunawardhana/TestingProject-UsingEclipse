@@ -1,0 +1,21 @@
+
+Calculator test = new Calculator();
+int x = 10;
+int y = 20;
+int expecteds = 30;
+int actuals=test.addNumber(10,20);
+
+
+
+if (expecteds ==  actuals)
+{
+	System.out.println("Successfully Passed the Test");
+}
+else
+{
+	System.out.println("Test is not pass");
+}
+
+
+
+
